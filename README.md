@@ -60,7 +60,14 @@ Tips for Tableau
 </table>
 
 
-
+```
+CASE [Country]
+WHEN 'Afghanistan' THEN 'Southern Asia'
+WHEN 'Albania' THEN 'Central and Eastern Europe'
+WHEN 'Algeria' THEN 'Middle East and Northern Africa'
+WHEN 'Angola' THEN 'Sub-Saharan Africa'
+END
+```
 
 
 ### Adjustments and improvements.
