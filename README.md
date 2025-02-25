@@ -34,6 +34,34 @@ Tips for Tableau
 </table>
 
 
+2 STEP: Identify places in the file without information.
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Thales Farias">
+        <img src="Captura de Tela 2025-02-25 às 22.36.05.png" width="500" alt="Tableau's Dashboard"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Thales Farias">
+        <img src="Captura de Tela 2025-02-25 às 22.36.15.png" width="500" alt="Tableau's Dashboard"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 ### Adjustments and improvements.
 
