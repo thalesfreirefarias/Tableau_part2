@@ -151,6 +151,18 @@ ISNULL([Null Hunting])
   END
 ```
 
+### Aggregate information 
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Thales Farias">
+        <img src="Captura de Tela 2025-02-26 às 19.40.21.png" width="500" alt="Tableau's Dashboard"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ### Adjustments and improvements.
 
 The project is still under development, and the upcoming updates will focus on the following tasks:
