@@ -69,7 +69,7 @@ WHEN 'Angola' THEN 'Sub-Saharan Africa'
 END
 ```
 
-3-) STEP: Create a column
+3 STEP: Create a column
 
 ```
 SPLIT(SPLIT([Dados],'<nome>',2),'</nome>',1)
@@ -77,8 +77,6 @@ SPLIT(SPLIT([Dados],'<profissao>',2),'</profissao>',1)
 SPLIT(SPLIT([Dados],'<idade>',2),'</idade>',1)
 ```
 
-
-4-) SPlIT Phone Number
 
 ```
 ###Split the pbone Number from the file. 
@@ -105,6 +103,28 @@ ISNULL([Null Hunting])
    REPLACE([Diagnosis], [DX] + " ", "")
 ```
 
+4 STEP: Tableau Prep
+
+###Edit the file first. Change CPF to string and change the State
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Thales Farias">
+        <img src="Captura de Tela 2025-02-26 às 18.36.25.png" width="500" alt="Tableau's Dashboard"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="Thales Farias">
+        <img src="Captura de Tela 2025-02-26 às 19.07.06.png" width="500" alt="Tableau's Dashboard"/><br>
+      </a>
+    </td>
+  </tr>
+</table>
 ### Adjustments and improvements.
 
 The project is still under development, and the upcoming updates will focus on the following tasks:
