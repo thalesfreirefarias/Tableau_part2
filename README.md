@@ -78,16 +78,32 @@ SPLIT(SPLIT([Dados],'<idade>',2),'</idade>',1)
 ```
 
 
-   SPLIT([Diagnosis], " ", 1)
-       INT(MID([DX],2,1))
-           ISNULL([Null Hunting])
-               REPLACE([Diagnosis], [DX] + " ", "")
 4-) SPlIT Phone Number
 
 ```
+###Split the pbone Number from the file. 
     REGEXP_EXTRACT([String of Data (String of Data)],'(\([0-9]{3}\)-[0-9]{3}-[0-9]{4})')
 ```
 
+```
+###The number 1 indicates that we are interested in the first part of the string (the part before the first space).
+SPLIT([Diagnosis], " ", 1)
+```
+
+```
+###Extracts a character from the [DX] column starting at position 2, and converts it into an integer.
+INT(MID([DX], 2, 1))
+```
+
+```
+###Checks if the value in the [Null Hunting] column is null.
+ISNULL([Null Hunting])
+```
+
+```
+### Removes the [DX] value (plus a space) from the [Diagnosis] column.
+   REPLACE([Diagnosis], [DX] + " ", "")
+```
 
 ### Adjustments and improvements.
 
